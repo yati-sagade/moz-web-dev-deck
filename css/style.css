@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../font/BebasNeue.otf");
+}
+
+@font-face {
+    font-family: "Aller";
+    src: url("../font/Aller_Rg.ttf");
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue";
+    font-weight: normal;
+}
+
+th, td {
+    padding: 2px;
+    margin: 1px;
+    border: 1px dotted black;
+    font-family: monospace;
+    text-align: center;
+}
+
+.sidebyside li {
+    display: inline-block;
+    margin: 10px;
+}
+
