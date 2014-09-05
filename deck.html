@@ -36,11 +36,35 @@
     <!-- Begin slides. Just make elements with a class of slide. -->
 
     <section class="slide">
-        <h1>Mozilla Web Development</h1>
-        <h2>Yati Sagade</h2>
-        <h3>Twitter - <a href="https://twitter.com/yati_itay">@yati_itay</a></h3>
-        <h3>GitHub - <a href=""https://github.com/yati-sagade>yati-sagade</a></h3>
+        <h1>Web development at Mozilla</h1>
     </section>
+
+    <section class="slide">
+        <h2>Projects</h2>
+        <ul>
+            <li class="slide">
+                <div class="img-and-txt">
+                    <img src="img/mozilla_wordmark.png" alt="" id="mozwdmk">
+                    <span>homepage</span>
+                </div>
+            </li>
+            <li class="slide">
+                <div class="img-and-txt">
+                    <img src="img/mozilla_marketplace_logo.png" alt="">
+                    <span><b>Firefox</b> Marketplace</span>
+                </div>
+            </li>
+            <li class="slide">
+                <div class="sidebyside">
+                    <div id="mdn-logo-holder"></div>
+                    <div>Mozilla Developer Network</div>
+                </div>
+            </li>
+            <li class="slide">And more...</li>
+
+        </ul>
+    </section>
+
 
     <section class="slide">
       <h1>Bedrock</h1>
@@ -48,9 +72,7 @@
 
     <section class="slide">
       <h2>The backend for mozilla.org</h2>
-      <section class="slide">
-          <img src="img/mozilla.org.png"></img>
-      </section>
+      <img src="img/mozilla.org.png"></img>
     </section>
 
     <section class="slide">
@@ -204,11 +226,49 @@
         </ul>
     </section>
 
+    <section class="slide">
+        <h2>
+            Django - views
+        </h2>
+        <ul>
+            <li class="slide">Entry point for a web request.</li>
+            <li class="slide">Python function, called by Django.</li>
+            <li class="slide">Should return a valid HTTP response with the correct MIMETYPE.</li>
+            <li class="slide">
+                Example:
+                <pre>
+    def home(request):
+        uname = request.user.username
+        return HttpResponse(
+            '&lt;h1&gt;hello,&nbsp;{}&lt;/h1&gt;'.format(uname)
+        )
+                </pre>
+            </li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>
+            Django - URLConfs
+        </h2>
+        <ul>
+            <li class="slide">
+                Request routing on steroids
+            </li>
+            <li class="slide">Connect a URL to a view.</li>
+            <li class="slide">e.g., <code>/home/</code> should call the function <code>home()</code></li>
+        </ul>
+    </section>
     <!-- This is the last slide -->
     <section class="slide last-slide">
         <h2>
             Links
         </h2>
+        <section class="slide">
+            <h2>Yati Sagade</h2>
+            <h3>Twitter - <a href="https://twitter.com/yati_itay">@yati_itay</a></h3>
+            <h3>GitHub - <a href=""https://github.com/yati-sagade>yati-sagade</a></h3>
+        </section>
         <ul>
             <li>
                 Bedrock:

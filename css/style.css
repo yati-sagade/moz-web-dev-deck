@@ -26,3 +26,30 @@ th, td {
     margin: 10px;
 }
 
+.sidebyside div {
+    display: inline-block;
+}
+
+.img-and-txt img {
+    height: 2em;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+}
+
+#mdn-logo-holder {
+    background: url('../img/mdn-sprite.svg') no-repeat 0px -86px;
+    width: 65px;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+
