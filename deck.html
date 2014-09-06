@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=1024, user-scalable=no">
 
-  <title>Your deck.js Presentation</title>
+  <title>MozWebDev</title>
 
   <!-- Required stylesheet -->
   <link rel="stylesheet" media="screen" href="lib/deck/core/deck.core.css">
@@ -78,9 +78,10 @@
     <section class="slide">
         <h2>The stack</h2>
         <ul>
-            <li>Python</li>
-            <li>Django</li>
+            <li>Linux</li>
+            <li>Apache/Nginx</li>
             <li>MariaDB (MySQL)</li>
+            <li>Python/Django</li>
         </ul>
     </section>
 
@@ -93,9 +94,21 @@
             <section class="slide"><li>Free!</li></section>
         </ul>
     </section>
+
+    <section class="slide">
+        <h2>
+            Components of a Django project
+        </h2>
+        <ul>
+            <li class="slide">Apps</li>
+            <li class="slide">An app is a self contained piece of business logic.</li>
+            <li class="slide">Example 1: A site may use a wiki system like kuma, implemented as an app.</li>
+            <li class="slide">Example 2: A site using Stripe for payments may use the django-stripe-payments app</li>
+        </ul>
+    </section>
     
     <section class="slide">
-        <h2>Components of a Django project</h2>
+        <h2>Components of a Django app</h2>
         <ul>
             <section class="slide">
                 <li>
@@ -148,6 +161,7 @@
             </section>
         </ul>
     </section>
+
     <section class="slide">
         <pre>
     class User(Model):
@@ -259,16 +273,27 @@
             <li class="slide">e.g., <code>/home/</code> should call the function <code>home()</code></li>
         </ul>
     </section>
+
+    <section class="slide">
+        <h2>
+            Things to keep in mind
+        </h2>
+        <li class="slide">
+            Follow the Mozilla style guide - <a href="https://www.mozilla.org/en-US/styleguide/">https://www.mozilla.org/en-US/styleguide/</a>
+        </li>
+
+        Read the web-dev contribution wiki:
+        <a href="https://wiki.mozilla.org/Contribute/Webdev">
+            https://wiki.mozilla.org/Contribute/Webdev
+        </a>
+    </section>
+
+
     <!-- This is the last slide -->
     <section class="slide last-slide">
         <h2>
             Links
         </h2>
-        <section class="slide">
-            <h2>Yati Sagade</h2>
-            <h3>Twitter - <a href="https://twitter.com/yati_itay">@yati_itay</a></h3>
-            <h3>GitHub - <a href=""https://github.com/yati-sagade>yati-sagade</a></h3>
-        </section>
         <ul>
             <li>
                 Bedrock:
@@ -278,6 +303,34 @@
                         <li>docs: <a href="http://bedrock.readthedocs.org">
                                     http://bedrock.readthedocs.org</a></li>
                     </ul>
+            </li>
+
+            <li>
+                Django:
+                    <ul>
+                        <li>
+                            Quick tutorial:
+                            <a href="https://docs.djangoproject.com/en/1.7/intro/tutorial01/">
+                                https://docs.djangoproject.com/en/1.7/intro/tutorial01/
+                            </a> 
+                        </li>
+                    </ul>
+            </li>
+
+            <li>
+                Find stuff to work on:
+                    <ul>
+                        <li>Bugs Ahoy: <a href="http://www.joshmatthews.net/bugsahoy/">http://www.joshmatthews.net/bugsahoy/</a></li>
+                        <li>What can I do for Mozilla: <a href="www.whatcanidoformozilla.org/">www.whatcanidoformozilla.org/</a></li>
+                    </ul>
+            </li>
+
+            <li>
+                /me: Yati Sagade
+                <ul>
+                    <li>Twitter: <a href="https://twitter.com/yati_itay">@yati_itay</a></li>
+                    <li>GitHub: <a href=""https://github.com/yati-sagade>yati-sagade</a></li>
+                </ul>
             </li>
         </ul>
     </section>
